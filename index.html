@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemanth-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  
+    
+   
+     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(3, 3, 53);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(36, 36, 90); 
+            height: 80px;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color:white;
+        }
+
+        nav ul li a:hover{
+            color: rgb(121, 121, 202);
+        }
+
+        .left{
+            font-size: 1.8rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 120px 0;
+            align-items: center;
+            
+        }
+        .firstSection>div{ 
+            width:30%;
+        }
+        .leftSection{
+            
+            font-size: 2.5rem;
+        }
+        .rightSection{
+          
+            
+        }
+        .rightSection img{
+            width:85%;
+            border-radius: 50%;
+
+        }
+
+        .purple{
+            color: #8637cf;
+        }
+
+        #element{
+            color: #8637cf;
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto; 
+            height: 95vh;
+        }
+        main hr{
+            border: 0;
+            background: #1f79ec;
+            height: 1.5px;
+            margin: 40px 85px;
+        }
+
+        .secondSection h1{
+            font-size: 1.8rem;
+        }
+
+        .text-gray{
+            color: gray;
+        }
+
+        .secondSection .box{
+            width: 80vw;
+            background: white;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+            position: relative;
+            top:15px;
+        }
+
+        .secondSection .verticle{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 118px;
+        }
+
+        .verticle-title{
+            position: relative;
+            top: 55px;
+        }
+
+        .verticle-desc{
+            position: relative;
+            top:81px;
+            color:gray;
+            width: 150px;
+            font-size: 10px;
+
+        }
+
+        .image-top{
+            width: 38px;
+            position: relative;
+            top: -50px;
+            left: -18px;
+        }
+        
+        .thirdSection{
+            max-width: 80vw;
+            margin: auto; 
+            height: 80vh;
+            display: flex;
+            justify-content: space-around;
+            
+            
+        }
+
+        .thirdSection .aboutParentLeft{
+            position: relative;
+            top: 93px;
+            width: 65%;
+            left: -146px;
+        }
+        .thirdSection .about{
+            width: 100%;
+        }
+
+        .thirdSection p{
+            color: aliceblue
+            
+        }
+
+        .about .highlights{
+            color: #9848e2;
+        }
+
+        .thirdSection .aboutParentRight{
+            position: relative;
+            top: 93px;
+            display: flex;
+            left:15px;
+            width: 35%;
+        }
+
+        .aboutHeading{
+            position: relative;
+            top: 40px;
+            left: -70px;
+        }
+
+        .image-about{
+            width: 400px;
+            height: 400px;
+            position: relative;
+        }
+
+        .fourthSection{
+            max-width: 80vw;
+            margin: auto; 
+            height: 52vh;
+        }
+
+        .contact-links{
+            position: relative;
+            top:25px;
+            padding: 15px;
+        }
+
+        .contact-links h3{
+            margin-bottom: 25px;
+        }
+
+        .contact-link-images{
+            width:15px;
+        }
+
+        .contact-link-images2{
+            width:25px;
+            position: relative;
+            left:-8px;
+        }
+
+        .contact-buttons{
+            text-decoration: none;
+            color:white;
+        }
+
+
+        .h3Hover :hover{
+            color: gray;
+        }
+
+        footer{
+            background-color:#212a46;
+           
+        }
+
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul{
+            list-style: none;
+        }
+
+        .footer>div{
+            width:233px;
+        }
+
+        footer .footer-rights{
+            color:gray;
+            text-align: center;
+        }
+
+        .right ul{
+            scroll-behavior: smooth;
+        }
+
+        .project-titles{
+            text-decoration: none;
+            color: white;
+        }
+
+        .project-titles:hover{
+            color: gray;
+        }
+
+    </style> 
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Hemanth's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#" onclick="location.reload()">Home</a></li>
+                    <li><a href="#section3">About</a></li>
+                    <li><a href="#section2">Projects</a></li>
+                    <li><a href="#section4">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection" id="section1">
+            <div class="leftSection">
+                Hii, I am <span class="purple">Hemanth</span> 
+                <div>and I am a passionate</div>
+                <div>Software Developer</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <!-- <img src="./developer.png" alt="developer image"> -->
+                <img src="./images/hemanth.jpg" alt="hemanth image">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection" id="section2">
+            <span class="text-gray">What I have done so far</span>
+            <h1>My Projects</h1>
+            <div class="box">
+                <div class="verticle">
+                    <img class="image-top" src="./images/project-management.png" alt="project image">
+                    <div class="verticle-title">
+                        <a href="https://github.com/hemanth-katte/Gym-management-system" class="project-titles"  target="_blank">Gym Management System</a> 
+                    </div>
+                    <div class="verticle-desc">
+                        Private Gym Management System application is an utility application which provides convenience to gym owners. Built using 
+                        Java language and frameworks such as Java Swing and Java AWT. MySQL database is used and is hosted on local server.
+                    </div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="./images/project-management.png" alt="project image">
+                    <div class="verticle-title">
+                       <a href="https://github.com/hemanth-katte/Book-My-Show" class="project-titles" target="_blank">BookMyShow(backend-spring boot)</a> 
+                    </div>
+                    <div class="verticle-desc">
+                        Built using Java, Spring Boot, JPA and Hibernate. Backend system for Ticket booking application. Designed and implemented databases, built more than 15 REST APIs, used Postman to perform CRUD operations. 
+                        
+                    </div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="./images/project-management.png" alt="project image">
+                    <div class="verticle-title">
+                        <a href="https://github.com/hemanth-katte/Pizza-Ordering-Website" class="project-titles" target="_blank">Pizza Ordering Website(.NET Razor Page)</a>
+                        </div>
+                    <div class="verticle-desc">
+                        Online Pizza Ordering application built using .NET Razor Pages architecture. Built several Razor pages, stramlined connections between them, made use of CSHTML language as well as C# inside view-model pages. 
+                    </div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="./images/project-management.png" alt="project image">
+                    <div class="verticle-title">
+                        <a href="https://github.com/hemanth-katte/Library-Management-System-Backend-Spring-Boot-" class="project-titles" target="_blank">Library Management System</a>
+                    </div>
+                    <div class="verticle-desc">
+                        Backend system for the Library Management System. Built using Java, Spring Boot, JPA and Hibernate. Developed database design, used various DSA logic, built various REST APIs to perform CRUD operations. 
+                        
+                    </div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="./images/project-management.png" alt="project image">
+                    <div class="verticle-title">
+                        <a href="https://github.com/hemanth-katte/Jokes-App" class="project-titles" target="_blank">Jokes App(.NET Core MVC)</a>
+                    </div>
+                    <div class="verticle-desc">
+                       A simple joke telling application built using .NET Core MVC architecture. Made use of C# programming language and built-in database T-SQL was used.   
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="thirdSection" id="section3">
+            <!-- <span class="text-gray">A brief about me</span> -->
+            <h1 class="aboutHeading">About</h1>
+            <div class="aboutParentLeft">
+                <div class="about">
+                    <div class="about0">Hello, I'm Hemanth, an Engineering graduate from <span class="highlights">BMS College of Engineering, Bangalore</span> from the stream of Mechanical Engineering. Originally hailing from <span class="highlights">Tumakuru</span>, I have developed a deep curiosity for technology and its applications.</div>
+                    <br>
+                    <div class="about1">With a strong foundation in programming languages such as <span class="highlights">Java, C#,</span>  along with frameworks like <span class="highlights">Spring Boot, .NET MVC and Razor pages,</span> as well as databases such as <span class="highlights">MySQL</span> I have successfully built diverse range of projects and applications. Notable among them are the <span class="highlights">Gym management system,</span> which is helpful for gym owners to track their subscribers, <span class="highlights">BookMyShow(backend),</span> ensuring seamless ticketing experiences, and a user-friendly <span class="highlights">Pizza ordering website</span> built on .NET Razor pages.</div>
+                    <br>
+                    <div class="about2">Beyond the realm of coding, I find joy in pursuing other interests such as <span class="highlights">tennis,</span> where I actively engage as a player, and reading books that expand my knowledge and perspective. Additionally, I have had the privilege of being a guest speaker on a <span class="highlights">Spotify podcast,</span> where I share insights and experiences related to tennis world.</div>
+                    <br>
+                    <div class="about3">Through my work and skills, I strive to continuously grow and <span class="highlights">contribute</span> to the ever-evolving world of software development.</div>
+                </div>
+            </div>
+            <div class="aboutParentRight">
+                <img class="image-about" src="./images/developer.png" alt="developer">
+            </div>
+            
+            
+        </section>
+        <hr>
+        <section class="fourthSection" id="section4">
+            <h1>Contact Me</h1>
+            <div class="contact-links">
+                <h3><img class="contact-link-images" src="./images/pngwing.com.png" alt="whatsapp"> Phone - +91-8310019885</h3>
+                <h3 class="h3Hover"><img class="contact-link-images2" src="./images/linkedIn.png" alt="LinkedIn"><a class="contact-buttons" target="_blank"  href="https://www.linkedin.com/in/hemanth-k-62b81b1b7/">LinkedIn </a> </h3>
+                <h3 class="h3Hover"><img class="contact-link-images2" src="./images/github2.png" alt="gitHub"><a class="contact-buttons" target="_blank" href="https://github.com/hemanth-katte" >GitHub</a></h3>
+                <h3 class="h3Hover"><img class="contact-link-images2" src="./images/twitter.png" alt="Twitter"><a class="contact-buttons" target="_blank" href="https://twitter.com/hemanth_k61">Twitter</a></h3>
+            </div>
+            
+        </section>
+        
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                Hemanth's Developer Portfolio
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="footer-rights">
+            All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Java', 'Spring Boot', 'C#', '.NET', 'Data Structures And Algorithms', 'MySQL'],
+          typeSpeed: 50,
+        });
+      </script>
+
+</body>
+</html>

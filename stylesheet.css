@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(3, 3, 53);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(36, 36, 90); 
+    height: 80px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+nav ul li a:hover{
+    color: rgb(121, 121, 202);
+}
+
+.left{
+    font-size: 1.8rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0;
+    align-items: center;
+    
+}
+.firstSection>div{ 
+    width:30%;
+}
+.leftSection{
+    
+    font-size: 2.5rem;
+}
+.rightSection{
+  
+    
+}
+.rightSection img{
+    width:85%;
+    border-radius: 50%;
+
+}
+
+.purple{
+    color: #8637cf;
+}
+
+#element{
+    color: #8637cf;
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto; 
+    height: 95vh;
+}
+main hr{
+    border: 0;
+    background: #1f79ec;
+    height: 1.5px;
+    margin: 40px 85px;
+}
+
+.secondSection h1{
+    font-size: 1.8rem;
+}
+
+.text-gray{
+    color: gray;
+}
+
+.secondSection .box{
+    width: 80vw;
+    background: white;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+    position: relative;
+    top:15px;
+}
+
+.secondSection .verticle{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 118px;
+}
+
+.verticle-title{
+    position: relative;
+    top: 55px;
+}
+
+.verticle-desc{
+    position: relative;
+    top:81px;
+    color:gray;
+    width: 150px;
+    font-size: 10px;
+
+}
+
+.image-top{
+    width: 38px;
+    position: relative;
+    top: -50px;
+    left: -18px;
+}
+
+.thirdSection{
+    max-width: 80vw;
+    margin: auto; 
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.thirdSection .aboutParentLeft{
+    position: relative;
+    top: 93px;
+    width: 65%;
+    left: -146px;
+}
+.thirdSection .about{
+    width: 100%;
+}
+
+.thirdSection p{
+    color: aliceblue
+    
+}
+
+.about .highlights{
+    color: #9848e2;
+}
+
+.thirdSection .aboutParentRight{
+    position: relative;
+    top: 93px;
+    display: flex;
+    left:15px;
+    width: 35%;
+}
+
+.aboutHeading{
+    position: relative;
+    top: 40px;
+    left: -70px;
+}
+
+.image-about{
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.fourthSection{
+    max-width: 80vw;
+    margin: auto; 
+    height: 52vh;
+}
+
+.contact-links{
+    position: relative;
+    top:25px;
+    padding: 15px;
+}
+
+.contact-links h3{
+    margin-bottom: 25px;
+}
+
+.contact-link-images{
+    width:15px;
+}
+
+.contact-link-images2{
+    width:25px;
+    position: relative;
+    left:-8px;
+}
+
+.contact-buttons{
+    text-decoration: none;
+    color:white;
+}
+
+
+.h3Hover :hover{
+    color: gray;
+}
+
+footer{
+    background-color:#212a46;
+   
+}
+
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer>div{
+    width:233px;
+}
+
+footer .footer-rights{
+    color:gray;
+    text-align: center;
+}
+
+.right ul{
+    scroll-behavior: smooth;
+}
+
+.project-titles{
+    text-decoration: none;
+    color: white;
+}
+
+.project-titles:hover{
+    color: gray;
+}
